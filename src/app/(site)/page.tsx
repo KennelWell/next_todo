@@ -1,11 +1,15 @@
-import Image from "next/image";
-import AuthForm from "../../components/AuthForm";
-import { Section } from "../../components/Section";
-import { Navbar } from "@/src/components/Navbar";
+
+import { Navbar } from "@/src/components/page/Navbar";
+import HeroSection from "@/src/components/page/HeroSection";
+import ProjectSection from "@/src/components/page/ProjectSection";
+import AboutSection from "@/src/components/page/AboutSection";
 export default function Home() {
     return (
       <>
       <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <ProjectSection />
       </>
     );
   }

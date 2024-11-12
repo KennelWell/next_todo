@@ -6,7 +6,6 @@ import Link from "next/link";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import React, {useState} from "react";
-import { TodoList } from "../../../components/TodoList";
 
 
 export default function ProfilePage() {
@@ -29,7 +28,6 @@ export default function ProfilePage() {
             <hr />
             <button onClick={logout} className='my-2 p-2 border border-pink-200 hover:border-pink-400'>logout</button>
             <p>Profile page</p>
-            <TodoList />
             <div className="flex border border-red-400">
                 
             </div>
